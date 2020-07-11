@@ -1,0 +1,11 @@
+#Armstrong number controller
+number = str(input("Please input a positive integer number:  "))
+count = len(number)
+total_number = 0
+for i in range(0,count):
+    total_number += int(number[i])**count
+print("total number = ",total_number)
+if total_number == int(number):
+    print("Yes ", number, "is an armstrong number.")
+else:
+    print("No", number, "is not an armstrong number.")
