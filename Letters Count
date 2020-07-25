@@ -1,0 +1,7 @@
+#Letters Count
+metin=tuple(input('''Please input your sentence:
+'''))
+soz={}
+for i in metin:
+	soz.update({i : metin.count(i)})	
+print(soz)
